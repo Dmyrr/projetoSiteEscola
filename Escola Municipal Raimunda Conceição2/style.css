@@ -1,0 +1,105 @@
+body  {
+    background-color: #9cbbf5;
+    background-image: url(src/image-bg.webp);
+    background-size: cover;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+p   {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(10px, 8px + 1vw, 14px);
+}
+
+h3  {
+    color: #3f79cf;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(8px, 6px + 1vw, 14px);
+    font-weight: lighter;
+    font-style: italic;
+    margin: calc(5% + 2px) 0px ;
+}
+
+h2  {
+    color: #2559a6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: clamp(8px, 8px + 1vw, 16px);
+    margin: calc(5% + 2px) 0px;  
+
+}
+
+#conteiner {
+    align-content: center;
+    margin: 2% auto;
+    width: 80vw;
+    background-color: #6c9cf7;
+}
+
+#header  {
+    background: #ffffff;
+    width: 100%;
+}
+
+#nav    {
+    background-color: #2559a6;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #2559a6;
+}
+
+.menu   {
+    font-family: Helvetica;
+    font-size: clamp(10px, 8px + 1vw, 16px);
+    color: #ffffff;
+    margin: auto 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo  {
+    position: absolute ;
+    z-index: 1;
+    margin: 3% auto auto 3%;
+    width: 25%;
+}
+
+.banner     {
+    position: relative;
+    margin: auto;
+}
+
+.image-banner   {
+    width: 100%;    
+}
+
+.noticia    {
+    margin: 5%;
+    padding: 5%;
+    background-color: #ffffff;
+    width: clamp(10vw, 30% - 1vw, 200vw);
+    display: inline-block;
+}
+
+.rodape {
+    margin: auto;
+    padding: 20pt 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: clamp(1em, 1em+1vw, 1.5em);
+    text-align: center;
+
+}
+
+.link    {
+    font-weight: bold;
+    color: #a7eaff;
+    text-decoration: none;
+}
+
